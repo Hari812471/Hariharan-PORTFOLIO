@@ -1,0 +1,44 @@
+<!-- Tournament Section -->
+<section class="tournaments" id="tournaments">
+    <h2>Upcoming Tournaments</h2>
+    <div class="tournament-cards">
+        <!-- Tournament Card 1 -->
+        <div class="tournament-card">
+            <img src="tournament1.jpg" alt="Tournament 1">
+            <h3>Battle Royale Championship</h3>
+            <p>Date: October 30, 2023</p>
+            <p>Prize Pool: $50,000</p>
+            <button class="register-button" data-tournament="Battle Royale">Register Now</button>
+        </div>
+        <!-- Tournament Card 2 -->
+        <div class="tournament-card">
+            <img src="tournament2.jpg" alt="Tournament 2">
+            <h3>Racing Masters Cup</h3>
+            <p>Date: November 15, 2023</p>
+            <p>Prize Pool: $30,000</p>
+            <button class="register-button" data-tournament="Racing Masters">Register Now</button>
+        </div>
+        <!-- Tournament Card 3 -->
+        <div class="tournament-card">
+            <img src="tournament3.jpg" alt="Tournament 3">
+            <h3>FPS Showdown</h3>
+            <p>Date: December 5, 2023</p>
+            <p>Prize Pool: $40,000</p>
+            <button class="register-button" data-tournament="FPS Showdown">Register Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Registration Modal -->
+<div class="modal" id="registrationModal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 id="modalTitle">Register for Tournament</h2>
+        <form id="registrationForm">
+            <input type="text" id="playerName" placeholder="Your Name" required>
+            <input type="email" id="playerEmail" placeholder="Your Email" required>
+            <input type="text" id="gameID" placeholder="Your Game ID" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
